@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "fabriccrossdimtpfix",
+  "version": "${version}",
+  "name": "FabricCrossDimTPFix",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "ISC",
+  "icon": "assets/fabriccrossdimtpfix/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "fabriccrossdimtpfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.6+build.214",
+    "fabric": "*",
+    "minecraft": "~1.16.2"
+  }
+}
